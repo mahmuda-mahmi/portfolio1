@@ -1,0 +1,706 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+
+.container {
+       width: 1160px;
+}
+
+*::selection {
+       background-color: #105696;
+       color: #fff;
+}
+
+img {
+       width: 100%;
+}
+
+h3,
+h1,
+h4,
+h2,
+h5,
+p {
+       font-family: "Barlow Condensed", sans-serif;
+       font-style: normal;
+}
+
+a {
+       text-decoration: none;
+}
+
+.navbar {
+       padding: 20px;
+       color: #fff;
+}
+
+.navbar-brand {
+       font-family: "Kdam Thmor Pro", sans-serif;
+       font-weight: 600;
+       font-size: 30px;
+       font-style: normal;
+       text-transform: uppercase;
+}
+
+.navbar-nav {
+       font-family: "Kdam Thmor Pro", sans-serif;
+       font-weight: 400;
+       font-size: 14px;
+       font-style: normal;
+       text-transform: uppercase;
+}
+
+/* hero section */
+
+.hero-text {
+       padding: 25px;
+}
+
+.hero-text h3 {
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: 28px;
+}
+
+.hero-text h1 {
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: 65px;
+}
+
+.hero-text .btn {
+       border-radius: 50px;
+       background: linear-gradient(145deg, #105696, #1563ac);
+       /* box-shadow: 20px 20px 60px #86c33a,
+              -20px -20px 60px #9ee698; */
+       text-transform: uppercase;
+       font-weight: 600;
+       padding: 15px 20px 15px 20px;
+       color: #ffffff;
+       border: 2px solid #105696;
+}
+
+.hero-text .btn:hover {
+       background-color: #105696;
+       border: 2px solid #105696;
+       color: white;
+}
+
+.hero-text p {
+       padding: 25px 0px 25px 0px;
+}
+
+#hero {
+       position: relative;
+}
+
+.hero-bg {
+       padding: 150px 0 150px 0;
+}
+
+.hero-bg-1 {
+       background-image: url(/assets/images/banner-1.jpg);
+}
+
+.hero-bg-2 {
+       background-image: url(/assets/images/banner-2.jpg);
+}
+
+.hero-bg-3 {
+       background-image: url(/assets/images/banner-3.jpg);
+}
+
+
+.hero-bg-4 {
+       background-image: url(/assets/images/banner-4.jpg);
+}
+
+
+
+#hero .slick-prev,
+.slick-next {
+       height: 60px;
+       width: 60px;
+       line-height: 60px;
+       border-radius: 50%;
+       border: 1px solid #fff;
+       position: absolute;
+       color: #fff;
+       background-color: #105696;
+}
+
+#hero .slick-prev {
+       top: 50%;
+       left: 3%;
+       z-index: 2;
+}
+
+#hero .slick-next {
+       top: 50%;
+       right: 3%;
+       z-index: 2;
+}
+
+#hero-bt {
+       margin: 100px 0 100px 0;
+}
+
+#hero-bt .hero-box {
+       background-color: #ffffff;
+       padding: 40px;
+       text-align: center;
+
+}
+
+#hero-bt .hero-box .icon-box {
+       color: #172231;
+       background-color: #e3f1fdb0;
+       border: 2px solid #105696;
+       padding: 30px;
+       height: 120px;
+       width: 120px;
+       margin-top: 20px;
+       border-radius: 50%;
+       margin: 0 auto;
+}
+
+
+#hero-bt .hero-box i {
+       font-size: 50px;
+       line-height: 50px;
+}
+
+#hero-bt .hero-box h3 {
+       line-height: 4rem;
+       font-size: 25px;
+       color: #172231;
+
+}
+
+#hero-bt .hero-box h4 {
+       font-size: 18px;
+       font-weight: 400;
+       color: #172231;
+}
+
+/* //////// */
+.dashed {
+       position: relative;
+       height: 5px;
+       width: 30px;
+       background: #44a1f8;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       display: block;
+}
+
+.dashed::before {
+       position: absolute;
+       content: "";
+       height: 100%;
+       width: 50%;
+       background: #44a1f8;
+       border-radius: 10px;
+       right: -60%;
+       top: 0;
+}
+
+.dashed::after {
+       position: absolute;
+       content: "";
+       height: 100%;
+       width: 25%;
+       background: #44a1f8;
+       border-radius: 10px;
+       right: -100%;
+       top: 0;
+}
+
+#about-me .about-left {
+       background-image: url(../images/about-us-bg.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+}
+
+#about-me .about-right {
+       padding: 30px;
+       margin: 50px 0 0 0;
+}
+
+.section-header {
+       color: #172231;
+       font-weight: 600;
+       font-size: 50px;
+       margin-bottom: 45px;
+}
+
+.section-sub-header {
+       color: #888686;
+       font-weight: 600;
+       font-size: 28px;
+       margin-bottom: 20px;
+}
+
+.section-text {
+       color: #4a5a70;
+       font-weight: 300;
+       font-size: 20px;
+}
+
+#about-me .btn {
+       padding: 12.5px 30px;
+       border: 0;
+       border-radius: 100px;
+       background-color: #105696;
+       color: #ffffff;
+       font-weight: Bold;
+       transition: all 0.5s;
+       -webkit-transition: all 0.5s;
+}
+
+.btn:hover {
+       background-color: #105696;
+       box-shadow: 0 0 20px #10559693;
+       transform: scale(1.1);
+}
+
+.btn:active {
+       background-color: #105696;
+       transition: all 0.25s;
+       -webkit-transition: all 0.25s;
+       box-shadow: none;
+       transform: scale(0.98);
+}
+
+#counter {
+       background-color: #172231;
+       padding: 50px;
+}
+
+#counter .counter-text {
+       color: #fff;
+}
+
+.counter-icon {
+       text-align: right;
+       font-size: 50px;
+       color: #2790f1;
+}
+
+#counter h2 {
+       font-size: 50px;
+       font-weight: 600;
+}
+
+#counter h5 {
+       font-size: 22px;
+       font-weight: 400;
+}
+
+.choose-img {
+       background-image: url(../images/feature-bg.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: contain;
+}
+
+#choose-us {
+       padding: 150px 0 150px 0;
+}
+
+#choose-us p {
+       padding-bottom: 30px;
+       font-size: 20px;
+}
+
+.choose-text h3 {
+       font-weight: 400;
+}
+
+.choose-text h5 {
+       font-weight: 400;
+}
+
+#service .dashed {
+       margin-left: calc(50% - 30px);
+}
+
+#service {
+       background: rgb(37, 45, 57);
+       background: linear-gradient(180deg, rgba(37, 45, 57, 1) 80%, rgba(251, 252, 254, 1) 80%);
+       padding: 50px;
+}
+
+#service h4 {
+       font-weight: 400;
+}
+
+.service-text {
+       position: relative;
+       padding: 30px;
+       background-color: #fff;
+}
+
+.service-icon i {
+       position: absolute;
+       background-color: #44a1f8;
+       height: 60px;
+       width: 60px;
+       border-radius: 50%;
+       text-align: center;
+       line-height: 60px;
+       color: #fff;
+       font-size: 32px;
+       left: 15px;
+       top: -90px;
+}
+
+#service h5 {
+       font-weight: 300;
+       color: #4a5a70;
+}
+
+#service a {
+       color: #172231;
+       font-weight: 700;
+       text-transform: uppercase;
+       line-height: 50px;
+}
+
+#service a:hover {
+       color: #105696;
+}
+
+#service a:hover i {
+       transform: translateX(5px);
+       transition: all linear 0.2s;
+}
+
+#team {
+       padding: 200px 0 200px 0;
+}
+
+.team-card {
+       width: 100%;
+       position: relative;
+}
+
+.team-card::after {
+       background-image: url(../images/team-member-bg.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       content: "";
+       height: 60%;
+       width: 60%;
+       position: absolute;
+       top: 30px;
+       right: 30px;
+       z-index: -1;
+       transition: ease 0.2s;
+}
+
+.team-card::before {
+       background-image: url(../images/team-member-bg.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       content: "";
+       height: 60%;
+       width: 60%;
+       position: absolute;
+       bottom: 50px;
+       left: 20px;
+       z-index: -1;
+       transition: ease 0.2s;
+}
+
+.team-card:hover::after {
+       top: -20px;
+       right: -5px;
+       transition: ease 0.2s;
+}
+
+.team-card:hover::before {
+       bottom: -50px;
+       left: -11px;
+       transition: ease 0.2s;
+}
+
+.team-card:hover .card-green {
+       opacity: 1;
+       transform: scale(1);
+       transition: ease 0.2s;
+}
+
+.card-green {
+       background-color: #105596ab;
+       /* padding: 25px 75px 25px 75px; */
+       width: 94%;
+       height: 20%;
+       position: absolute;
+       bottom: 0%;
+       transform: scale(0.8);
+       opacity: 0;
+       transition: ease 0.2s;
+}
+
+.card-green button {
+       font-size: 16px;
+       text-align: center;
+       height: 50px;
+       width: 50px;
+       margin: 5px;
+       line-height: 50px;
+       background-color: transparent;
+       color: #fff;
+       border-radius: 50%;
+       border: 1px solid #fff;
+       transform: ease 0.4s;
+}
+
+button:hover {
+       background-color: #fff;
+       color: #105696;
+       filter: drop-shadow(0px 0px 12px #fff);
+       transition: ease 0.4s;
+}
+
+#team .dashed {
+       margin-left: calc(50% - 30px);
+}
+
+.team-text {
+       text-align: center;
+       padding: 25px;
+       margin-top: 25px;
+}
+
+.team-text h3 {
+       color: #505762;
+       font-weight: 600;
+}
+
+.team-text h5 {
+       color: #778291;
+       font-weight: 400;
+}
+
+
+.case-btn {
+       border-radius: 50px;
+       background: linear-gradient(145deg, #105696, #1163af);
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 700;
+       padding: 15px 20px 15px 20px;
+       color: #fff;
+       border: 2px solid #105696;
+}
+
+.case-img {
+       position: relative;
+       width: 100%;
+}
+
+.img-layer {
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       top: 0;
+       left: 0;
+       opacity: 0;
+       background-color: #1055969a;
+       transition: ease .4s;
+}
+
+.img-layer a {
+       font-size: 10px;
+       background-color: transparent;
+       color: #fff;
+
+}
+
+.case-img:hover .img-layer a {
+       transition: ease .4s;
+       font-size: 35px;
+}
+
+
+.case-img img {
+       transition: ease .4s;
+}
+
+.case-img:hover img {
+       transform: scale(1.04);
+       transition: ease .4s;
+}
+
+.case-img:hover .img-layer {
+       opacity: 1;
+       transition: ease .4s;
+}
+
+.case-text {
+       padding: 25px;
+}
+
+.case-text h3 {
+       color: #252d39;
+       font-size: 22px;
+       font-weight: 600;
+}
+
+.case-text h4 {
+       color: #105696;
+       font-size: 18px;
+       font-weight: 600;
+}
+
+/* testimonial */
+
+#testimonial {
+       padding: 100px 0 150px 0;
+       background-image: url(../images/testimonial-bg-1.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+}
+
+#testimonial .dashed {
+       margin-left: calc(50% - 30px);
+}
+
+#testimonial img {
+       width: 10%;
+       border-radius: 50%;
+       margin: 0 auto;
+}
+
+#testimonial p {
+       font-weight: 400;
+       font-style: italic;
+       font-size: 22px;
+}
+
+#testimonial .slick-prev,
+.slick-next {
+       height: 60px;
+       width: 60px;
+       line-height: 60px;
+       border-radius: 50%;
+       border: 1px solid #fff;
+       position: absolute;
+       color: #fff;
+       background-color: #105696;
+}
+
+#testimonial .slick-prev {
+       top: 50%;
+       left: -10%;
+       color: #fff;
+       background-color: #105696;
+}
+
+#testimonial .slick-next {
+       top: 50%;
+       right: -10%;
+       color: #fff;
+       background-color: #105696;
+}
+
+#testimonial .slick-next:hover {
+       color: #105696;
+       background-color: #fff;
+       border: 1px solid #105696;
+}
+
+#testimonial .slick-prev:hover {
+       color: #105696;
+       background-color: #fff;
+       border: 1px solid #105696;
+}
+
+.test-slide {
+       background-image: url(../images/quote.png);
+       background-size: contain;
+       background-position: bottom;
+       background-repeat: no-repeat;
+}
+
+
+/* quote section */
+
+.backlayer {
+       padding: 120px 100px;
+       background-color: #2e4463b0;
+       width: 100%;
+}
+
+.backlayer h2 {
+       font-size: 55px;
+       color: #fff;
+}
+
+#quote {
+       background-image: url(../images/cta-lg.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       background-attachment: fixed;
+}
+
+#quote h1 {
+       font-weight: 600;
+       color: #242e3d;
+}
+
+/* #quote::before{
+       background-image: url(../images/);
+} */
+
+/* latest section */
+
+#latest {
+       padding: 100px 0 100px 0;
+}
+
+#latest .service-text h5 {
+       font-weight: 400;
+       font-size: 15px;
+}
+
+#latest .service-text h4 {
+       color: #252d39;
+       font-weight: 600;
+}
+
+#latest .service-text p {
+       color: #4a5a70;
+       font-weight: 300;
+       font-size: 18px;
+}
+
+
+#latest .service-text .latest-span {
+       position: absolute;
+       background-color: 105696;
+       text-align: center;
+       color: #fff;
+       font-size: 14px;
+       left: 25px;
+       top: -217px;
+       padding: 5px 10px;
+       border-radius: 2px;
+}
+
+#footer {
+       background-color: #252d39;
+       color: #fff;
+       padding: 100px 0 100px 0;
+}
+
+#footer .container {
+       width: 1300px;
+}
