@@ -101,20 +101,20 @@ a {
 }
 
 .hero-bg-1 {
-       background-image: url(/assets/images/banner-1.jpg);
+       background-image: url(../images/banner-1.jpg);
 }
 
 .hero-bg-2 {
-       background-image: url(/assets/images/banner-2.jpg);
+       background-image: url(../images/banner-2.jpg);
 }
 
 .hero-bg-3 {
-       background-image: url(/assets/images/banner-3.jpg);
+       background-image: url(../images/banner-3.jpg);
 }
 
 
 .hero-bg-4 {
-       background-image: url(/assets/images/banner-4.jpg);
+       background-image: url(../images/banner-4.jpg);
 }
 
 
