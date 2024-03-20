@@ -265,6 +265,7 @@ a {
        background-color: #105696;
        box-shadow: 0 0 20px #10559693;
        transform: scale(1.1);
+       color: #fff;
 }
 
 .btn:active {
@@ -622,12 +623,12 @@ button:hover {
        border: 1px solid #105696;
 }
 
-.test-slide {
+/* .test-slide {
        background-image: url(../images/quote.png);
        background-size: contain;
        background-position: bottom;
        background-repeat: no-repeat;
-}
+} */
 
 
 /* quote section */
@@ -659,6 +660,54 @@ button:hover {
 /* #quote::before{
        background-image: url(../images/);
 } */
+
+/* Contact form section */
+
+#contact{
+       padding: 100px 0;
+}
+
+#contact .dashed {
+       margin-left: calc(50% - 30px);
+}
+
+#contact .section-header{
+       color: #105696 ;
+}
+
+.form-label, .form-check-label{
+       color:#4a5a70;
+       font-weight: 600;
+}
+
+#contact ::placeholder{
+       color: #888686;
+       font-weight: 400;
+}
+
+.label{
+       color: #888686;
+       font-weight: 400;
+}
+
+.contact-btn{
+       border-radius: 50px;
+       background: linear-gradient(145deg, #105696, #1163af);
+       text-transform: uppercase;
+       font-size: 16px;
+       font-weight: 700;
+       margin-top: 10px;
+       padding: 10px 20px 10px 20px;
+       color: #fff;
+       border: 2px solid #105696;
+}
+
+.contact-btn:hover{
+       background-color: rgb(16, 86, 150);
+       box-shadow: rgba(16, 85, 150, 0.576) 0px 0px 20px;
+       transform: scale(1.1);
+       color: rgb(255, 255, 255);
+}
 
 /* latest section */
 
