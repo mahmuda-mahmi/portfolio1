@@ -49,6 +49,9 @@
        .counter-div{
               grid-template-columns: 30% 60%;
        }
+       #counter{
+              padding: 50px 0 150px 0;
+       }
 }
 
 
