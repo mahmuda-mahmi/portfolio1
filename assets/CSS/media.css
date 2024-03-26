@@ -16,6 +16,10 @@
               padding: 10px 25px;
        }
 
+       .container{
+              width: 70%;
+       }
+
        /* Hero */
 
        .slick-next,
@@ -63,7 +67,7 @@
        }
 
        .row-bt{
-              grid-template-columns: repeat(1, 1fr);
+              grid-template-columns: repeat(2, 1fr);
        }
 }
 
@@ -94,13 +98,16 @@
        .hero-bg {
               background-position: center;
        }
+       .row-bt{
+              grid-template-columns: repeat(2, 1fr);
+       }
 }
 
 
 /* *************************************************** EXTRA LARGE ************************************************************** */
 /***********************************************************************************************************************************/
 
-@media screen and (min-width:993px) and (max-width:1200px) {
+@media screen and (min-width:993px) and (max-width:1440px) {
        .nav-modal {
               display: none;
        }
@@ -109,9 +116,9 @@
               width: 1160px;
        }
        /* Hero */
-       /* .hero-bg {
-              padding: 150px 0 150px 0;
-       } */
+       .hero-bg {
+              padding: 150px 0 100px 0;
+       }
 
 }
 
@@ -119,7 +126,7 @@
 /* *************************************************** EXTRA LARGE LARGE ***************************************************** */
 /********************************************************************************************************************************/
 
-@media screen and (min-width:1201px) and (max-width:1400px) {
+@media screen and (min-width:1441px){
        .nav-modal {
               display: none;
        }
@@ -131,5 +138,7 @@
        /* Hero */
        .hero-bg {
               padding: 150px 0 150px 0;
+              background-repeat: no-repeat;
+              background-size: cover;
        }
 }
