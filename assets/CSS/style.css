@@ -163,6 +163,7 @@ a {
        grid-template-columns: repeat(4, 1fr);
        gap: 20px;
 }
+
 #hero-bt {
        margin: 100px 0 100px 0;
 }
@@ -238,6 +239,15 @@ a {
        top: 0;
 }
 
+
+/* about me section */
+
+.row-about{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 20px;
+}
+
 #about-me .about-left {
        background-image: url(../images/about-us-bg.png);
        background-position: center;
@@ -296,9 +306,21 @@ a {
        transform: scale(0.98);
 }
 
+/* counter */
+
+.row-counter{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+}
+
+.counter-div{
+       display: grid;
+       grid-template-columns: 30% 60%;
+       gap: 10%;
+}
 #counter {
        background-color: #172231;
-       padding: 50px;
+       padding: 150px 0;
 }
 
 #counter .counter-text {

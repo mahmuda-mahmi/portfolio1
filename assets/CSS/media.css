@@ -34,6 +34,21 @@
        .row-bt{
               grid-template-columns: repeat(1, 1fr);
        }
+
+       /* About me */
+       .row-about{
+              grid-template-columns: repeat(1, 1fr);
+       }
+
+       /* counter */
+       .row-counter{
+              grid-template-columns: repeat(1, 1fr);
+              row-gap: 10%;
+       }
+       
+       .counter-div{
+              grid-template-columns: 30% 60%;
+       }
 }
 
 
@@ -67,8 +82,18 @@
        }
 
        .row-bt{
-              grid-template-columns: repeat(2, 1fr);
+              grid-template-columns: repeat(1, 1fr);
        }
+
+              /* counter */
+              .row-counter{
+                     grid-template-columns: repeat(2, 1fr);
+                     row-gap: 10%;
+              }
+              
+              .counter-div{
+                     grid-template-columns: 30% 60%;
+              }
 }
 
 /* *************************************************** LARGE ************************************************************** */
@@ -100,6 +125,12 @@
        }
        .row-bt{
               grid-template-columns: repeat(2, 1fr);
+       }
+
+       /* counter */
+       
+       .row-counter{
+              gap: 5%;
        }
 }
 
