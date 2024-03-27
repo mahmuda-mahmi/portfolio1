@@ -390,6 +390,7 @@ a {
 }
 
 
+/* service */
 
 #service .dashed {
        margin-left: calc(50% - 30px);
@@ -398,11 +399,17 @@ a {
 #service {
        background: rgb(37, 45, 57);
        background: linear-gradient(180deg, rgba(37, 45, 57, 1) 80%, rgba(251, 252, 254, 1) 80%);
-       padding: 50px;
+       padding: 50px 0;
 }
 
 #service h4 {
        font-weight: 400;
+}
+
+.service-row{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 30px;
 }
 
 .service-text {
