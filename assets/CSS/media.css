@@ -72,9 +72,6 @@
 
        /* service */
 
-       /* #service .container{
-              width: 90%;
-       } */
        .service-row {
               grid-template-columns: repeat(1, 1fr);
        }
@@ -90,6 +87,14 @@
               margin: 15px;
               line-height: 50px;
               font-size: 20px;
+       }
+
+       /* case study */
+       .case-text-row{
+              grid-template-columns: repeat(1, 1fr);
+       }
+       .case-img-row{
+              grid-template-columns: repeat(1, 1fr);
        }
 
 }
@@ -166,6 +171,15 @@
        .team-row {
               grid-template-columns: repeat(2, 1fr);
        }
+
+       /* case study */
+       .case-text-row{
+              grid-template-columns: repeat(2, 1fr);
+       }
+       .case-img-row{
+              grid-template-columns: repeat(2, 1fr);
+       }
+       
 }
 
 /* *************************************************** LARGE ************************************************************** */
@@ -224,6 +238,13 @@
 
        /* service */
        .service-row {
+              grid-template-columns: repeat(2, 1fr);
+       }
+       /* case study */
+       .case-text-row{
+              grid-template-columns: repeat(2, 1fr);
+       }
+       .case-img-row{
               grid-template-columns: repeat(2, 1fr);
        }
 }
