@@ -32,6 +32,11 @@ a {
        text-decoration: none;
 }
 
+ul, li{
+       list-style: none;
+       padding-left: 0;
+}
+
 .navbar {
        padding: 20px;
        color: #fff;
@@ -856,6 +861,16 @@ button:hover {
        padding: 100px 0 100px 0;
 }
 
+.footer-row{
+       display: grid;
+       grid-template-columns: 40% 20% 30%;
+       column-gap: 10%;
+}
+
 #footer .container {
        width: 1300px;
 }
+
+/* #footer li{
+       padding: 5% 0;
+} */
