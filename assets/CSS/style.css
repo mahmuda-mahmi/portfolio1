@@ -37,6 +37,8 @@ ul, li{
        padding-left: 0;
 }
 
+
+/* nav section ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .navbar {
        padding: 20px;
        color: #fff;
@@ -58,7 +60,7 @@ ul, li{
        text-transform: uppercase;
 }
 
-/* hero section */
+/* hero section/////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .hero-text {
        padding: 25px;
@@ -161,7 +163,7 @@ ul, li{
        z-index: 2;
 }
 
-/* Hero bt */
+/* Hero bt /////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row-bt{
        display: grid;
@@ -211,7 +213,7 @@ ul, li{
        color: #172231;
 }
 
-/* //////// */
+/* dasher //////////////////////////////// */
 .dashed {
        position: relative;
        height: 5px;
@@ -245,7 +247,7 @@ ul, li{
 }
 
 
-/* about me section */
+/* about me section ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row-about{
        display: grid;
@@ -312,7 +314,7 @@ ul, li{
        transform: scale(0.98);
 }
 
-/* counter */
+/* counter /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row-counter{
        display: grid;
@@ -351,7 +353,7 @@ ul, li{
 }
 
 
-/* chose us */
+/* choose us //////////////////////////////////////////////////////////////////////////////////// */
 
 .choose-us-row{
        display: grid;
@@ -395,7 +397,7 @@ ul, li{
 }
 
 
-/* service */
+/* service //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #service .dashed {
        margin-left: calc(50% - 30px);
@@ -459,7 +461,7 @@ ul, li{
 }
 
 
-/* team */
+/* team //////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .team-row{
        display: grid;
@@ -574,7 +576,7 @@ button:hover {
        font-weight: 400;
 }
 
-/* case study */
+/* case study////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .case-text-row{
        display: grid;
@@ -656,7 +658,7 @@ button:hover {
        font-weight: 600;
 }
 
-/* testimonial */
+/* testimonial ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #testimonial {
        padding: 100px 0 150px 0;
@@ -728,10 +730,10 @@ button:hover {
 } */
 
 
-/* quote section */
+/* quote section //////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .backlayer {
-       padding: 120px 100px;
+       padding: 120px 0;
        background-color: #2e4463b0;
        width: 100%;
 }
@@ -759,7 +761,7 @@ button:hover {
 } */
 
 
-/* latest section */
+/* latest section////////////////////////////////////////////////////////////////////////////////////////////// */
 .latest-row{
        display: grid;
        grid-template-columns:repeat(3, 1fr);
@@ -801,7 +803,7 @@ button:hover {
        position: relative;
 }
 
-/* Contact form section */
+/* Contact form section/////////////////////////////////////////////////////////////////////////// */
 
 #contact{
        padding: 100px 0;
@@ -853,7 +855,7 @@ button:hover {
        justify-content: center;
 }
 
-/* footer section */
+/* footer section///////////////////////////////////////////////////////////////////////////////////////////// */
 
 #footer {
        background-color: #252d39;
