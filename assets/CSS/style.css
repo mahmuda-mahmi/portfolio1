@@ -755,6 +755,7 @@ button:hover {
 
 /* Contact form section */
 
+
 #contact{
        padding: 100px 0;
 }
@@ -802,6 +803,11 @@ button:hover {
 }
 
 /* latest section */
+.latest-row{
+       display: grid;
+       grid-template-columns:repeat(3, 1fr);
+       gap: 30px;
+}
 
 #latest {
        padding: 100px 0 100px 0;
@@ -823,9 +829,12 @@ button:hover {
        font-size: 18px;
 }
 
-
-#latest .service-text .latest-span {
+#latest .latest-span{
        position: absolute;
+}
+
+#latest .service-text {
+       position: relative;
        background-color: 105696;
        text-align: center;
        color: #fff;
