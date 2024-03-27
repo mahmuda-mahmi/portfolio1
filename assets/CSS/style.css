@@ -844,6 +844,10 @@ button:hover {
        color: rgb(255, 255, 255);
 }
 
+.contact-row{
+       justify-content: center;
+}
+
 /* footer section */
 
 #footer {
