@@ -20,7 +20,7 @@ $(function () {
        $('.hero-slider').slick({
               dots: false,
               infinite: true,
-              autoplay: false,
+              autoplay: true,
               autoplaySpeed: 2000,
               speed: 300,
               prevArrow: '<button type="button" class="slick-prev"><i class="fa-thin fa-arrow-left"></i></button>',
@@ -83,7 +83,7 @@ $(function () {
        $('.test-slider').slick({
               dots: false,
               infinite: true,
-              autoplay: false,
+              autoplay: true,
               autoplaySpeed: 2000,
               speed: 300,
               prevArrow: '<button type="button" class="slick-prev"><i class="fa-thin fa-arrow-left"></i></button>',
