@@ -103,10 +103,13 @@
        }
 
        /* footer */
+       #footer .container{
+              width: 90%;
+       }
        .footer-row{
               grid-template-columns: repeat(1, 1fr);
+              gap: 10px;
        }
-
 }
 
 
@@ -200,6 +203,7 @@
        /* footer */
        .footer-row{
               grid-template-columns: repeat(1, 1fr);
+              gap: 10px;
        }
 }
 
@@ -279,6 +283,9 @@
               grid-template-columns: 50% 40%;
               gap: 10%;
        }
+       #footer li{
+              padding: 2% 0;
+       }
 }
 
 
@@ -304,6 +311,10 @@
               gap: 10%;
        }
 
+       #footer li{
+              padding: 4% 0;
+       }
+
 }
 
 
@@ -324,5 +335,9 @@
               padding: 150px 0 150px 0;
               background-repeat: no-repeat;
               background-size: cover;
+       }
+       /* footer */
+       #footer li{
+              padding: 4% 0;
        }
 }
