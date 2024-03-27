@@ -753,8 +753,50 @@ button:hover {
        background-image: url(../images/);
 } */
 
-/* Contact form section */
 
+/* latest section */
+.latest-row{
+       display: grid;
+       grid-template-columns:repeat(3, 1fr);
+       gap: 30px;
+}
+
+#latest {
+       padding: 100px 0 100px 0;
+}
+
+#latest .service-text h5 {
+       font-weight: 400;
+       font-size: 15px;
+}
+
+#latest .service-text h4 {
+       color: #252d39;
+       font-weight: 600;
+}
+
+#latest .service-text p {
+       color: #4a5a70;
+       font-weight: 300;
+       font-size: 18px;
+}
+
+#latest .latest-span {
+       position: absolute;
+       background-color: #105696;
+       text-align: center;
+       color: #fff;
+       font-size: 14px;
+       left: 5%;
+       top: 5%;
+       padding: 5px 10px;
+       border-radius: 2px;
+}
+#latest .latest-box{
+       position: relative;
+}
+
+/* Contact form section */
 
 #contact{
        padding: 100px 0;
@@ -802,48 +844,7 @@ button:hover {
        color: rgb(255, 255, 255);
 }
 
-/* latest section */
-.latest-row{
-       display: grid;
-       grid-template-columns:repeat(3, 1fr);
-       gap: 30px;
-}
-
-#latest {
-       padding: 100px 0 100px 0;
-}
-
-#latest .service-text h5 {
-       font-weight: 400;
-       font-size: 15px;
-}
-
-#latest .service-text h4 {
-       color: #252d39;
-       font-weight: 600;
-}
-
-#latest .service-text p {
-       color: #4a5a70;
-       font-weight: 300;
-       font-size: 18px;
-}
-
-#latest .latest-span{
-       position: absolute;
-}
-
-#latest .service-text {
-       position: relative;
-       background-color: 105696;
-       text-align: center;
-       color: #fff;
-       font-size: 14px;
-       left: 25px;
-       top: -217px;
-       padding: 5px 10px;
-       border-radius: 2px;
-}
+/* footer section */
 
 #footer {
        background-color: #252d39;
