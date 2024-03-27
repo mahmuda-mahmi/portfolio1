@@ -75,13 +75,21 @@
        /* #service .container{
               width: 90%;
        } */
-       .service-row{
+       .service-row {
               grid-template-columns: repeat(1, 1fr);
        }
 
        /* team */
-       .team-row{
+       .team-row {
               grid-template-columns: repeat(1, 1fr);
+       }
+
+       #team button {
+              height: 50px;
+              width: 50px;
+              margin: 15px;
+              line-height: 50px;
+              font-size: 20px;
        }
 
 }
@@ -144,18 +152,18 @@
        }
 
        /* chose us */
-       .choose-us-row{
+       .choose-us-row {
               grid-template-columns: repeat(1, 1fr);
               row-gap: 50px;
        }
 
        /* service */
-       .service-row{
+       .service-row {
               grid-template-columns: repeat(1, 1fr);
        }
 
        /* team */
-       .team-row{
+       .team-row {
               grid-template-columns: repeat(2, 1fr);
        }
 }
@@ -210,12 +218,12 @@
        }
 
        /* choose us */
-       .choose-us-row{
+       .choose-us-row {
               gap: 50px;
        }
 
        /* service */
-       .service-row{
+       .service-row {
               grid-template-columns: repeat(2, 1fr);
        }
 }
