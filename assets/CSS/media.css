@@ -297,11 +297,12 @@
               display: none;
        }
 
-       .container {
-              width: 1160px;
-       }
-
        /* Hero */
+       .slick-next,
+       .slick-prev,
+       .slick-dots {
+              display: none !important;
+       }
        .hero-bg {
               padding: 150px 0 100px 0;
        }
@@ -331,6 +332,11 @@
        }
 
        /* Hero */
+       .slick-next,
+       .slick-prev,
+       .slick-dots {
+              display: none !important;
+       }
        .hero-bg {
               padding: 150px 0 150px 0;
               background-repeat: no-repeat;
