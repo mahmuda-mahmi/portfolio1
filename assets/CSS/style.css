@@ -865,7 +865,7 @@ button:hover {
 
 .footer-row{
        display: grid;
-       grid-template-columns: 40% 20% 30%;
+       grid-template-columns: 40% 20% 20%;
        column-gap: 10%;
 }
 
